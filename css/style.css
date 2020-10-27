@@ -287,16 +287,9 @@ a.site-logo {
 	margin-top: 120px;
 }
 
-#business-name {
-	font-size: 10vw;
-	text-align: center;
-}
-
-.top-div {
-	/* background-color: blue; */
-	/* height: 90vh; */
-	background-image: linear-gradient(180deg, rgba(196,22,24,0.49763655462184875) 0%, rgba(190,200,200,0.5) 100%), url("/css/images/pictures/pexels-garvin-st-villier-3874337.jpg");
-	background-size: 100%;
+#opening-div {
+	background-image: linear-gradient(180deg, rgba(196,22,24,0.5) 0%, rgba(190,200,200,0.5) 100%), url("images/pictures/pexels-garvin-st-villier-3874337.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
 }
 
