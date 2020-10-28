@@ -26,3 +26,4 @@ function navLinkClick() {
     navToggler.click();
   }
 }
+
