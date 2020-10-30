@@ -334,28 +334,30 @@ a.site-logo {
 	font-size: 1rem;
 }
 
-.center-card {
-	text-align: center;
-	margin: auto;
-}
 
-.card-flex {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
-.title-box {
-	background-image: linear-gradient(180deg, rgba(255,255,255,0.3029586834733894) 0%, rgba(28,146,210,0.3029586834733894) 100%),
-	url("images/pictures/pexels-garvin-st-villier-3874337.jpg");
-	border-radius: 10px;
-}
-
-.card-image {
-	height: 400px;
+.img-div {
+	background-image: linear-gradient(180deg, rgba(32,32,32,0.5018382352941176) 0%, rgba(32,32,32,1) 100%),
+	url(images/pictures/pexels-jae-park-4141962.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
 	width: 100%;
+	height: auto;
+	overflow: hidden;
 }
-
+.dark-layout h1 {
+	font-family: 'Titillium Web', sans-serif;
+	color: var(--font-3);
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 2rem;
+}
+.dark-layout p {
+	/* font-family: 'Titillium Web', sans-serif; */
+	font-family: 'Open Sans', sans-serif;
+	color: var(--font-3);
+	padding-top: 20px;
+	font-size: 1rem;
+}
 
 
 /* carousel section */
