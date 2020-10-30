@@ -9,6 +9,7 @@ element {
 	--color-4: #ce6b1f;
 	--color-5: #bec8c8;
 	--color-6: #ffffff;
+	--color-7: #202020;
 	/* Font Colors */
 	--font-1: #157ffb;
 	--font-2: #191919;
@@ -34,6 +35,11 @@ body {
 	font-weight: 100;
 	color: var(--font-1);
 	background-color: var(--color-6);
+}
+
+p {
+	font-size: large;
+	line-height: 150%;
 }
 
 /* Background Color */
@@ -269,22 +275,85 @@ a.site-logo {
 		url("images/pictures/pexels-garvin-st-villier-3874337.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat;
+	/* border-bottom: black;
+	border-bottom-width: 2px;
+	border-style: solid; */
 }
 
 
 /* about section */
 #about-section {
-	background-color: var(--color-2);
-	border-top: black;
-	border-top-width: 2px;
-	border-style: solid;
-	padding: 20px;
+	background-color: var(--color-6);
+	padding-top: 30px;
 }
+
+#intro-div {
+	padding: 40px;
+	background-color: var(--color-7);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.square-button {
+	border: solid;
+	border-color: var(--color-3);
+	border-width: 2px;
+	background-color: var(--color-7);
+	color: var(--color-3);
+	padding: 15px 32px;
+	width: 20%;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+}
+.square-button:hover {
+	color: var(--color-6);
+	border-color: var(--color-6);
+	transition: .3s;
+}
+
+.icon-layout i {
+	font-size: 10em;
+	color: var(--color-7);
+}
+.icon-layout h1 {
+	font-family: 'Titillium Web', sans-serif;
+	color: var(--font-2);
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 2rem;
+}
+.icon-layout p {
+	/* font-family: 'Titillium Web', sans-serif; */
+	font-family: 'Open Sans', sans-serif;
+	color: var(--font-2);
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 1rem;
+}
+
 .center-card {
 	text-align: center;
 	margin: auto;
-	/* margin-left: 40%;
-	margin-right: 40%; */
+}
+
+.card-flex {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.title-box {
+	background-image: linear-gradient(180deg, rgba(255,255,255,0.3029586834733894) 0%, rgba(28,146,210,0.3029586834733894) 100%),
+	url("images/pictures/pexels-garvin-st-villier-3874337.jpg");
+	border-radius: 10px;
+}
+
+.card-image {
+	height: 400px;
+	width: 100%;
 }
 
 
