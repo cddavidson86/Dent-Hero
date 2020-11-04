@@ -181,7 +181,7 @@
 					});
 
 					const newSlideImg = newSlide.querySelector('.slide__img');
-
+                    // Img Size and Slide
 					anime.remove(newSlideImg);
 					anime({
 						targets: newSlideImg,
@@ -191,7 +191,7 @@
                         borderRadius: 20,
 						scale: [ 0.2, 0.4 ]
 					});
-
+                    // Center Titles
 					const newTitleSlide = this.DOM.titlesSlides[this.current];
 					newTitleSlide.classList.add('slide--current');
 					anime({
