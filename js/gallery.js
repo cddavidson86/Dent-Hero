@@ -187,7 +187,8 @@
 						targets: newSlideImg,
 						duration: this.settings.animation.slides.duration * 3,
 						easing: this.settings.animation.slides.easing,
-						translateY: [ dir === 'next' ? -100 : 100, 0 ],
+                        translateY: [ dir === 'next' ? -100 : 100, 0 ],
+                        borderRadius: 20,
 						scale: [ 0.2, 0.4 ]
 					});
 
