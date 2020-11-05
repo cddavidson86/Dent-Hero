@@ -16,6 +16,11 @@ element {
 	--font-2: #191919;
 	--font-3: #f0f0f0;
 	--font-4: #3f3f3f;
+
+	--family-1: 'Coda', cursive;
+	--family-2: 'Lato', sans-serif;
+	--family-3: 'Roboto', sans-serif;
+	--family-4: 'Titillium Web', sans-serif;
 }
 
 html {
@@ -178,7 +183,7 @@ p {
 
 #intro-div {
 	padding: 40px;
-	background-color: var(--color-8);
+	background-color: var(--color-3);
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -208,11 +213,11 @@ p {
 	color: var(--color-3);
 }
 .icon-layout h1 {
-	font-family: 'Titillium Web', sans-serif;
-	color: var(--font-2);
-	padding-top: 20px;
-	padding-bottom: 20px;
+	font-family: var(--family-3);
+	color: var(--font-3);
 	font-size: 2rem;
+	margin-top: 20px;
+	background: var(--color-7);
 }
 .icon-layout p {
 	/* font-family: 'Titillium Web', sans-serif; */
@@ -224,22 +229,22 @@ p {
 }
 
 .img-div {
-	background-image: linear-gradient(180deg, rgba(32, 32, 32, 0.5018382352941176) 0%, rgba(32, 32, 32, 1) 100%),
+	/* background-image: linear-gradient(180deg, rgba(32, 32, 32, 0.5018382352941176) 0%, rgba(32, 32, 32, 1) 100%),
 		url(images/pictures/blackcar.png);
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: cover; */
 }
-.dark-layout h1 {
-	font-family: 'Titillium Web', sans-serif;
+.dark-layout h1 span {
+	font-family: var(--family-3);
 	color: var(--font-3);
-	padding-top: 20px;
-	padding-bottom: 20px;
 	font-size: 2rem;
+	margin-top: 20px;
+	background: var(--color-7);
 }
 .dark-layout p {
 	/* font-family: 'Titillium Web', sans-serif; */
 	font-family: 'Open Sans', sans-serif;
-	color: var(--font-3);
+	color: var(--font-2);
 	padding-top: 20px;
 	font-size: 1rem;
 }
