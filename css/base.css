@@ -517,7 +517,7 @@ a.demo--current {
 	border: 0;
 	background: none;
 	font-weight: bold;
-	font-size: 30px;
+	font-size: 1.8em;
 	color: var(--color-nav);
 }
 

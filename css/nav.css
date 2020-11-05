@@ -11,6 +11,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	font-family: 'Roboto', sans-serif;
 }
 #logo-img {
 	width: 9rem;

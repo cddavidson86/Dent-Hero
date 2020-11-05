@@ -10,6 +10,7 @@ element {
 	--color-5: #bec8c8;
 	--color-6: #ffffff;
 	--color-7: #202020;
+	--color-8: #131313;
 	/* Font Colors */
 	--font-1: #157ffb;
 	--font-2: #191919;
@@ -57,7 +58,7 @@ p {
 }
 
 .bg-4 {
-	background-color: var(--color-4) !important;
+	background-color: var(--color-8) !important;
 }
 
 .bg-5 {
@@ -110,6 +111,7 @@ p {
 
 .style-5 {
 	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
 }
 
 /*  */
@@ -144,12 +146,16 @@ p {
 
 .title-dh {
 	margin-top: 120px;
+	text-shadow: 0 1px 0 #cccccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #c41618,
+		0 6px 1px rgba(0, 0, 0, .1), 0 0 5px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .3), 0 3px 5px rgba(0, 0, 0, .2),
+		0 5px 10px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .2), 0 20px 20px rgba(0, 0, 0, .15);
+	/* text-shadow: 2px 2px 2px #C41618; */
 }
 
 #opening-div {
 	background-image: linear-gradient(
 			180deg,
-			rgba(196, 22, 24, 0.29735644257703087) 60%,
+			rgba(34, 103, 174, 0.29735644257703087) 60%,
 			rgba(255, 255, 255, 0.19931722689075626) 76%,
 			rgba(204, 212, 212, 0.39539565826330536) 88%,
 			rgba(190, 200, 200, 1) 90%,
@@ -172,7 +178,7 @@ p {
 
 #intro-div {
 	padding: 40px;
-	background-color: var(--color-7);
+	background-color: var(--color-8);
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -182,7 +188,7 @@ p {
 	border: solid;
 	border-color: var(--color-3);
 	border-width: 2px;
-	background-color: var(--color-7);
+	background-color: inherit;
 	color: var(--color-3);
 	padding: 15px 32px;
 	width: 20rem;
@@ -238,7 +244,18 @@ p {
 	font-size: 1rem;
 }
 
-
 /* Before and After Section */
 
 
+
+
+
+/* Footer */
+
+#dark-footer p {
+	font-family: 'Open Sans', sans-serif;
+	color: var(--font-3);
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 1rem;
+}
