@@ -8,12 +8,12 @@ element {
 	--color-3: #2267ae;
 	--color-4: #ce6b1f;
 	--color-5: #bec8c8;
-	--color-6: #ffffff;
+	--color-6: #e9e7e7;
 	--color-7: #202020;
 	--color-8: #131313;
 	/* Font Colors */
 	--font-1: #157ffb;
-	--font-2: #191919;
+	--font-2: #202020;
 	--font-3: #f0f0f0;
 	--font-4: #3f3f3f;
 
@@ -25,11 +25,6 @@ element {
 
 html {
 	scroll-behavior: smooth;
-}
-
-html,
-body {
-	width: 100%;
 }
 
 body {
@@ -63,7 +58,7 @@ p {
 }
 
 .bg-4 {
-	background-color: var(--color-8) !important;
+	background-color: var(--color-4) !important;
 }
 
 .bg-5 {
@@ -72,6 +67,14 @@ p {
 
 .bg-6 {
 	background-color: var(--color-6) !important;
+}
+
+.bg-7 {
+	background-color: var(--color-7) !important;
+}
+
+.bg-8 {
+	background-color: var(--color-8) !important;
 }
 
 /* Font Colors and Gradients */
@@ -119,27 +122,6 @@ p {
 	font-weight: bold;
 }
 
-/*  */
-
-/* intro-area css start */
-.intro-area {
-	height: calc(100vh - 61px);
-	display: flex;
-	align-items: center;
-	text-align: center;
-	color: #fff;
-}
-.intro-area h2 {
-	font-size: 50px;
-	font-weight: 300;
-	line-height: 50px;
-	margin-bottom: 25px;
-}
-.intro-area p {
-	font-size: 18px;
-}
-/* intro-area css end */
-
 /* intro section */
 
 #mascot-logo {
@@ -175,18 +157,56 @@ p {
 	border-style: solid; */
 }
 
-/* about section */
+/* About section */
+
 #about-section {
-	background-color: var(--color-6);
+	background-color: var(--color-7);
+}
+#about-section .container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 80%;
 	padding-top: 30px;
+	padding-bottom: 30px;
+}
+#about-section h1 {
+	text-align: left;
+	font-size: 4vw;
+	color: var(--color-6);
+	font-family: var(--family-3);
+	padding-bottom: 20px;
+}
+#about-section h1 span {
+	border-bottom: var(--color-6);
+	border-bottom-width: 5px;
+	border-bottom-style: solid;
+}
+#about-section p {
+	color: var(--color-6);
+	font-family: var(--family-2);
+	font-size: large;
+	text-align: left;
+	padding-top: 20px;
+}
+#about-section img {
+	padding-top: 30%;
+	width: 100%;
 }
 
-#intro-div {
+
+/* #intro-div {
 	padding: 40px;
-	background-color: var(--color-3);
+	background-color: var(--color-7);
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	border-top: var(--color-3);
+	border-top-width: 5px;
+	border-top-style: solid;
+	border-bottom: var(--color-3);
+	border-bottom-width: 5px;
+	border-bottom-style: solid;
 }
 
 .square-button {
@@ -206,8 +226,15 @@ p {
 	color: var(--color-6);
 	border-color: var(--color-6);
 	transition: .3s;
-}
+} */
 
+
+
+/* Icon section */
+#icon-section {
+	background-color: var(--color-6);
+	padding-top: 30px;
+}
 .icon-layout i {
 	font-size: 10em;
 	color: var(--color-3);
@@ -228,25 +255,45 @@ p {
 	font-size: 1rem;
 }
 
+/* Repair type section */
 .img-div {
-	/* background-image: linear-gradient(180deg, rgba(32, 32, 32, 0.5018382352941176) 0%, rgba(32, 32, 32, 1) 100%),
+	background-image: linear-gradient(180deg, rgba(32, 32, 32, 0.5018382352941176) 0%, rgba(32, 32, 32, 1) 100%),
 		url(images/pictures/blackcar.png);
 	background-repeat: no-repeat;
-	background-size: cover; */
+	background-size: cover;
 }
 .dark-layout h1 span {
+	border-bottom: var(--color-7);
+	border-bottom-width: 5px;
+	border-bottom-style: solid;
+	font-size: 3vw;
+	color: var(--color-7);
 	font-family: var(--family-3);
-	color: var(--font-3);
-	font-size: 2rem;
-	margin-top: 20px;
-	background: var(--color-7);
 }
 .dark-layout p {
 	/* font-family: 'Titillium Web', sans-serif; */
-	font-family: 'Open Sans', sans-serif;
+	/* font-family: 'Open Sans', sans-serif;
 	color: var(--font-2);
 	padding-top: 20px;
-	font-size: 1rem;
+	font-size: 1rem; */
+	color: var(--color-7);
+	font-family: var(--family-2);
+	font-size: large;
+	text-align: left;
+	padding: 10px;
+}
+.dark-layout .img-box img {
+	width: 100%;
+	max-width: 400px;
+	border-left: var(--color-3);
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+.m-boost {
+	margin-bottom: 20vh;
+} 
+.img-box {
+	
 }
 
 /* Before and After Section */
